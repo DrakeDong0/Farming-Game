@@ -256,7 +256,7 @@ public class Sketch extends PApplet {
             if (map[i][j] instanceof Corn) { // checks if it is a corn object
               Corn k = (Corn) map[i][j]; // declares the reference item as a corn
               k.water(daynum); // calls the water method with the current date
-            } else if (map[i][j] instanceof Grape) {
+            } else if (map[i][j] instanceof Grape) {//Does the same with other plants
               Grape s = (Grape) map[i][j];
               s.water(daynum);
             } else if (map[i][j] instanceof Strawberry) {
